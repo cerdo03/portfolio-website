@@ -118,7 +118,7 @@ const LandingPage: React.FC = () => {
                         <div className='flex lg:flex-row flex-col space-x-0 lg:space-x-16 mt-4 sm:mt-8 justify-center sm:justify-start items-center'>
                             <div className='flex flex-row space-x-16 justify-center sm:justify-start'>
                                 <a href="https://www.linkedin.com/in/cerdo/" target="_blank" rel="noopener noreferrer">
-                                    <ReactSVG src={linkedinSvg} />
+                                    <ReactSVG src={linkedinSvg} className='hover:fill-gray-600'/>
                                 </a>
                                 <a href="https://twitter.com/cerdo03" target="_blank" rel="noopener noreferrer">
                                     <ReactSVG src={twitterSvg} />
@@ -169,18 +169,6 @@ const LandingPage: React.FC = () => {
                     <div className="text-lg sm:text-lg lg:text-xl mb-4 sm:mb-8 font-light font-sans text-black">
                         Please contact me directly at <a href="mailto:official.surya3jan@gmail.com" className="underline text-black hover:text-gray-600 hover:scale-110 transition-all duration-200">official.surya3jan@gmail.com</a> or through this form.
                     </div>
-                    {/* <form className="flex flex-col space-y-4 justify-center mb-4 sm:mb-8" onSubmit={handleSubmit}>
-                        <input type="text" placeholder="Name" className="p-3 bg-white rounded shadow outline-none text-black text-base sm:text-base lg:text-lg focus:bg-gray-100" onChange={handleChange} name="name" maxLength={30} ref={nameRef}/>
-                        <input type="email" placeholder="Email" className="p-3 bg-white rounded shadow outline-none text-black text-base sm:text-base lg:text-lg focus:bg-gray-100" onChange={handleChange} name="email" maxLength={30} ref={emailRef}/>
-                        <textarea placeholder="Message" className="p-3 bg-white rounded shadow outline-none h-36 text-black text-base sm:text-base lg:text-lg focus:bg-gray-100" onChange={handleChange} name="message" maxLength={800} ref={messageRef}/>
-                        <br/>
-                        <br className='sm:block hidden'/>
-                        <button type="submit" className="group self-center flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-black text-white rounded-md outline-none transition-all focus:scale-110 hover:scale-110 hover:bg-gray-900 active:scale-105 disabled:scale-100 disabled:bg-opacity-65 text-base sm:text-base lg:text-lg focus:ring-0">
-                            {isLoading ? (<>
-                                <div className="loader"></div>
-                            </>):(<>Submit <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" className="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M476 3.2L12.5 270.6c-18.1 10.4-15.8 35.6 2.2 43.2L121 358.4l287.3-253.2c5.5-4.9 13.3 2.6 8.6 8.3L176 407v80.5c0 23.6 28.5 32.9 42.5 15.8L282 426l124.6 52.2c14.2 6 30.4-2.9 33-18.2l72-432C515 7.8 493.3-6.8 476 3.2z"></path></svg></>)}
-                        </button>
-                    </form> */}
                     <form className="flex flex-col space-y-4 justify-center mb-4 sm:mb-8" onSubmit={handleSubmit}>
                         <input type="text" placeholder="Name" className="p-3 bg-white rounded shadow outline-none text-black text-base sm:text-base lg:text-lg focus:bg-gray-100" onChange={handleChange} name="name" maxLength={30} ref={nameRef} disabled={isLoading} />
                         <input type="email" placeholder="Email" className="p-3 bg-white rounded shadow outline-none text-black text-base sm:text-base lg:text-lg focus:bg-gray-100" onChange={handleChange} name="email" maxLength={30} ref={emailRef} disabled={isLoading} />
@@ -200,7 +188,7 @@ const LandingPage: React.FC = () => {
                     </form>
                     <div className='flex flex-row space-x-16 justify-center py-5 sm:py-10'>
                         <a href="https://www.linkedin.com/in/cerdo/" target="_blank" rel="noopener noreferrer">
-                            <ReactSVG src={linkedinSvg} />
+                            <ReactSVG src={linkedinSvg} className='hover:fill-gray-600'/>
                         </a>
                         <a href="https://twitter.com/cerdo03" target="_blank" rel="noopener noreferrer">
                             <ReactSVG src={twitterSvg} />
