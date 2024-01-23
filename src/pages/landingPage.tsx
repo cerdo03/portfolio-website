@@ -1,4 +1,4 @@
-import React, {useState, ChangeEvent, FormEvent} from 'react';
+import React, {useState} from 'react';
 // import Image from '../assets/IMG_9795.png'; 
 import PP2 from '../assets/pp_2.png';
 import { ReactSVG } from 'react-svg'
@@ -31,7 +31,7 @@ const LandingPage: React.FC = () => {
             message: '',
         });
     };
-    
+
     return (
         <div className="bg-[#E4E1DD] text-red w-full h-full mt-12 sm:mt-16 md:mt-16">
             {/* <section id="home" className="min-h-screen flex items-center justify-center flex-col">
