@@ -5,14 +5,14 @@ import { Link } from 'react-scroll';
 
 const Navbar: React.FC = () => {
     return (
-        <nav className="bg-[#E4E1DD]  fixed top-0 w-full h-12 sm:h-16 md:h-16 border-b-2 border-gray-300">
+        <nav className="bg-[#E4E1DD]  fixed top-0 w-full h-12 sm:h-16 md:h-16 border-b-2 border-gray-300 z-20">
             <div className="h-full overflow-scroll">
                 <div className="flex items-center justify-between h-full">
                     <div className="flex items-center h-full justify-between w-full">
 
                         <div className="h-full">
                             <div className="flex items-center h-full">
-                                <button className="bg-black text-white h-full flex items-center px-4">
+                                <button className="bg-black text-white h-full flex items-center px-4 hover:scale-105 transition-all duration-200">
                                     <FiMenu size={24} />
                                 </button>
                                 <div className="flex-shrink-0 text-black font-sans font-semibold text-2xl px-4 sm:px-4 lg:px-8">
@@ -39,9 +39,19 @@ const Navbar: React.FC = () => {
                         </div>
                         <div className="hidden md:block h-full">
                             <div className="flex items-center h-full">
-                                <button className="px-8 py-4 text-base font-semibold text-white bg-black h-full flex justify-center items-center font-sans">
+                                <button className="px-8 py-4 text-base font-semibold text-white bg-black h-full flex justify-center items-center font-sans
+                                transition-all  hover:scale-110 hover:bg-gray-900 active:scale-105 disabled:scale-100 disabled:bg-opacity-65 group"
+                                    onClick={() => {
+                                        const element = document.getElementById('contact');
+                                        if (element) {
+                                            element.scrollIntoView({ behavior: 'smooth' });
+                                        }
+                                    }}
+                                >
                                     Contact Me
-                                    <ReactSVG src='src/assets/arrow-right-top.svg' height="5px" width="5px" className="inline ml-2" />
+                                    <div className="transition-transform duration-200 group-hover:-translate-y-1">
+                                        <ReactSVG src='src/assets/arrow-right-top.svg'  />
+                                    </div>
                                 </button>
                             </div>
                         </div>
