@@ -53,7 +53,7 @@ const LandingPage: React.FC = () => {
     };
 
     const sendEmail = async() => {
-        var templateParams = {
+        const templateParams = {
             from_name: formData.name,
             from_email: formData.email,
             message: formData.message,
@@ -113,17 +113,17 @@ const LandingPage: React.FC = () => {
                         </div>
                         <div className='flex lg:flex-row flex-col space-x-0 lg:space-x-16 mt-4 sm:mt-8 justify-center sm:justify-start items-center'>
                             <div className='flex flex-row space-x-16 justify-center sm:justify-start'>
-                                <a href="https://www.linkedin.com/in/cerdo/" target="_blank" rel="noopener noreferrer">
-                                    <ReactSVG src='src/assets/linkedin.svg' />
-                                </a>
-                                <a href="https://twitter.com/cerdo03" target="_blank" rel="noopener noreferrer">
-                                    <ReactSVG src='src/assets/twitter.svg' />
-                                </a>
-                                <a href="https://github.com/cerdo03" target="_blank" rel="noopener noreferrer">
-                                    <ReactSVG src='src/assets/github.svg' />
-                                </a>
+                            <a href="https://www.linkedin.com/in/cerdo/" target="_blank" rel="noopener noreferrer">
+                                <ReactSVG src={'./src/assets/linkedin.svg'} />
+                            </a>
+                            <a href="https://twitter.com/cerdo03" target="_blank" rel="noopener noreferrer">
+                                <ReactSVG src={'./src/assets/twitter.svg'} />
+                            </a>
+                            <a href="https://github.com/cerdo03" target="_blank" rel="noopener noreferrer">
+                                <ReactSVG src={'./src/assets/github.svg'} />
+                            </a>
                             </div>
-                            <a href='src/assets/Surya_Shukla.pdf'  target="_blank" rel="noopener noreferrer" className='w-[9rem]'>
+                            <a href='./src/assets/Surya_Shukla.pdf'  target="_blank" rel="noopener noreferrer" className='w-[9rem]'>
                                 <button type="submit" className="group self-center mt-4 lg:mt-0 flex items-center justify-center gap-2 h-[3rem] w-[9rem] bg-black text-white rounded-md outline-none transition-all hover:scale-110 hover:bg-gray-900 active:scale-105 disabled:scale-100 disabled:bg-opacity-65 text-base sm:text-base lg:text-lg focus:ring-0">
                                         Resume 
                                         <svg xmlns="http://www.w3.org/2000/svg" height="1.2em" width="1.2em" viewBox="0 0 24 24" className="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:translate-y-1" fill='currentColor'><path d="M7 2v-2h10v2h-10zm0 4h10v-2h-10v2zm10 7v-5h-10v5h-6l11 11 11-11h-6z"/></svg>
@@ -196,13 +196,13 @@ const LandingPage: React.FC = () => {
                     </form>
                     <div className='flex flex-row space-x-16 justify-center py-5 sm:py-10'>
                         <a href="https://www.linkedin.com/in/cerdo/" target="_blank" rel="noopener noreferrer">
-                            <ReactSVG src='src/assets/linkedin.svg'/>
+                            <ReactSVG src='./src/assets/linkedin.svg'/>
                         </a>
                         <a href="https://twitter.com/cerdo03" target="_blank" rel="noopener noreferrer">
-                            <ReactSVG src='src/assets/twitter.svg' />
+                            <ReactSVG src='./src/assets/twitter.svg' />
                         </a>
                         <a href="https://github.com/cerdo03" target="_blank" rel="noopener noreferrer">
-                            <ReactSVG src='src/assets/github.svg' />
+                            <ReactSVG src='./src/assets/github.svg' />
                         </a>
                     </div>
                     <div className='sm:text-xl text-lg lg:text-xl font-light font-sans text-black'>

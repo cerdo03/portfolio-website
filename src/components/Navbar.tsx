@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
                                 >
                                     Contact Me
                                     <div className="transition-transform duration-200 group-hover:-translate-y-1">
-                                        <ReactSVG src='src/assets/arrow-right-top.svg'  />
+                                        <ReactSVG src='./src/assets/arrow-right-top.svg'  />
                                     </div>
                                 </button>
                             </div>
