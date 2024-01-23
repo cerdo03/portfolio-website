@@ -2,6 +2,7 @@ import React from 'react';
 import { FiMenu } from 'react-icons/fi';
 import { ReactSVG } from 'react-svg'
 import { Link } from 'react-scroll';
+import arrow_top_right from '../assets/arrow-right-top.svg';
 
 const Navbar: React.FC = () => {
     return (
@@ -50,7 +51,7 @@ const Navbar: React.FC = () => {
                                 >
                                     Contact Me
                                     <div className="transition-transform duration-200 group-hover:-translate-y-1">
-                                        <ReactSVG src='./src/assets/arrow-right-top.svg'  />
+                                        <ReactSVG src={arrow_top_right}  />
                                     </div>
                                 </button>
                             </div>
