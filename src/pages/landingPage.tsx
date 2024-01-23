@@ -106,13 +106,13 @@ const LandingPage: React.FC = () => {
             <section id="home" className="min-h-screen flex items-center justify-center flex-col">
                 <div className="flex flex-col sm:flex-row sm:justify-center justify-center space-x-0 sm:space-x-4 sm:px-14 px-6">
                     <div className="text-center sm:text-left flex flex-col justify-center">
-                        <div className='font-bold text-5xl sm:text-6xl lg:text-9xl text-black font-sans'>
+                        <div className='font-bold text-4xl sm:text-6xl lg:text-9xl text-black font-sans'>
                             Surya Shukla
                         </div>
-                        <div className='text-2xl sm:text-4xl lg:text-6xl text-black mt-2 sm:mt-5 font-semibold font-sans'>
+                        <div className='text-xl sm:text-4xl lg:text-6xl text-black mt-2 sm:mt-5 font-semibold font-sans'>
                             Software Engineer
                         </div>
-                        <div className='sm:text-2xl text-lg lg:text-2xl mt-4 sm:mt-8 font-light font-sans text-black sm:max-w-[50vw]'>
+                        <div className='sm:text-2xl text-base lg:text-2xl mt-4 sm:mt-8 font-light font-sans text-black sm:max-w-[50vw]'>
                             Hey, I am Surya! Software Engineer at Paytm. I graduated from IIT Goa in 2023. I love to build things and solve problems. I am passionate about learning new technologies and frameworks. I am always looking for new opportunities to learn and grow.
                         </div>
                         <div className='flex lg:flex-row flex-col space-x-0 lg:space-x-16 mt-4 sm:mt-8 justify-center sm:justify-start items-center'>
