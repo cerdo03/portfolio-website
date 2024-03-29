@@ -257,13 +257,11 @@ const LandingPage: React.FC = () => {
 
             <section id="interests" className="flex items-center  bg-[#E4E1DD] flex-col p-8 min-h-screen">
                 <h2 className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-4 sm:mb-8 text-black">Interests</h2>
-                <div className="flex flex-col lg:flex-row lg:justify-center justify-center space-x-0 sm:space-x-4 sm:px-14">
+                <div className="flex flex-col lg:flex-row lg:justify-center justify-center space-x-0 sm:space-x-4 sm:px-14 px-6">
                     <div className="text-center sm:text-left flex flex-col justify-center items-center">
-                        
-                        <div className='sm:text-xl text-base lg:text-xl flex-[0.5] font-light font-sans text-black sm:max-w-[50vw] max-w-[70vw]'>
+                        <div className='sm:text-xl text-base lg:text-xl flex-[0.5] font-light font-sans text-black'>
                             I am usually singing Bollywood classics and strumming my guitar in my free time. I love acting, photography and video editing, but finding time for them as hobbies has become challenging. <br></br><br></br>Nevertheless, I still love to travel and explore new places, especially those rich in history, culture, and nature. During my free time, you'll find me daydreaming about retiring on a beach in Goa with nothing but my guitar. Do check out some of my work.
                         </div>
-                        
                     </div>
                     <div className='hidden lg:flex-col lg:flex justify-center'>
                         <div className='flex flex-row h-[40%]'>
@@ -331,31 +329,12 @@ const LandingPage: React.FC = () => {
                             </div>
                         </Carousel>
 
-                        <Carousel showThumbs={false} className='w-[400px] sm:w-[600px] sm:h-[336px]' showArrows={false} autoPlay={true} infiniteLoop={false} showStatus={false}>
-                            <iframe src="https://www.youtube.com/embed/Gov4z_dKPuw" className='w-[400px] sm:w-[600px] h-[224px] sm:h-[336px]'/>
+                        <Carousel showThumbs={false} className='max-w-[600px] w-full sm:w-[600px] sm:h-[336px]' showArrows={false} autoPlay={true} infiniteLoop={false} showStatus={false}>
+                            <iframe src="https://www.youtube.com/embed/Gov4z_dKPuw" className='max-w-[600px] w-full sm:w-[600px] h-[224px] sm:h-[336px]'/>
                             
-                            <iframe src="https://www.youtube.com/embed/0tWJ-I4Prr4" className='w-[400px] sm:w-[600px] h-[224px] sm:h-[336px]'/>
+                            <iframe src="https://www.youtube.com/embed/0tWJ-I4Prr4" className='max-w-[600px] w-full sm:w-[600px] h-[224px] sm:h-[336px]'/>
                            
                         </Carousel>
-
-                        {/* <Carousel showThumbs={false} className='w-[400px] scale-[.8]' showArrows={false} autoPlay={true} infiniteLoop={true} showStatus={false}>
-                            <div className='flex items-center justify-center'>
-                                <YouTubeEmbed url="https://www.youtube.com/watch?v=Gov4z_dKPuw" height={200} className='w-[400px] scale-[.9]' />
-                            </div>
-                            <div className='flex items-center justify-center'>
-                                <YouTubeEmbed url="https://www.youtube.com/watch?v=0tWJ-I4Prr4" height={200} className='w-[400px] scale-[.9]' />
-                            </div>
-                        </Carousel> */}
-
-                        {/* <Carousel showThumbs={false} className='scale-[.9] w-[520px]' showArrows={false} autoPlay={true} infiniteLoop={true} showStatus={false}>
-                                <div className='flex items-center justify-center h-full w-full'>
-                                    <YouTubeEmbed url="https://www.youtube.com/watch?v=Gov4z_dKPuw" height={360} className='scale-[.8] w-[520px]'/>
-                                </div>
-                                <div className='flex items-center justify-center w-full'>
-                                    <YouTubeEmbed url="https://www.youtube.com/watch?v=0tWJ-I4Prr4" height={360} className='scale-[.8] w-[520px]'/>
-                                </div>
-                        </Carousel> */}
-
                     </div>
                 </div>
 

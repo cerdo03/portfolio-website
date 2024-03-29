@@ -69,3 +69,8 @@
 
 }
 
+
+.carousel .slide iframe{
+  width: 100% !important;
+  margin: 0px 0px 40px !important;
+}
