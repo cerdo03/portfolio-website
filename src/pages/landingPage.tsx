@@ -329,7 +329,7 @@ const LandingPage: React.FC = () => {
                             </div>
                         </Carousel>
 
-                        <Carousel showThumbs={false} className='max-w-[600px] w-full sm:w-[600px] sm:h-[336px]' showArrows={false} autoPlay={true} infiniteLoop={false} showStatus={false}>
+                        <Carousel showThumbs={false} className='max-w-[600px] w-full sm:w-[600px] sm:h-[336px]' showArrows={false} autoPlay={true} infiniteLoop={true} showStatus={false}>
                             <iframe src="https://www.youtube.com/embed/Gov4z_dKPuw" className='max-w-[600px] w-full sm:w-[600px] h-[224px] sm:h-[336px]'/>
                             
                             <iframe src="https://www.youtube.com/embed/0tWJ-I4Prr4" className='max-w-[600px] w-full sm:w-[600px] h-[224px] sm:h-[336px]'/>
