@@ -1,4 +1,4 @@
-import React, { useState, useRef, useContext, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import PP2 from '../assets/pp_2.png';
 import linkedinSvg from '../assets/linkedin.svg';
 import twitterSvg from '../assets/twitter.svg';

@@ -61,9 +61,10 @@ export const projects = [
         date: 'June 2022 - July 2022',
         link:'https://github.com/cerdo03/peetcode',
         desc: [
-            "Worked on windows application to visualize the data collected during R&D of Automobiles to increase their safety and efficiency.",
-            "Enhanced and developed visual elements like heat flow matrix and integrated them into the IPEmotion software.",
-            "Used C# to create Winforms and Arction library to create the data modeling elements like histograms, heat maps, and classification tables."
+            `Created Peetcode, a coding platform enabling users to create their account, and submitting solutions to the DSA problems. Implemented Admin
+            Authorisation, which allowed admin users to add problems to the database.`,
+            `Developed Rest APIs in Express Js. Implemented JWT authentication with http only cookie and managed sessions with sliding expiration.`,
+            `Made a versatile coding IDE using React, supporting languages like Python and Java. Used Docker containerisation for execution of user’s solution`
         ]
     },
     { 
