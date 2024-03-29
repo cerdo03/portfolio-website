@@ -3,8 +3,10 @@ import { Routes, Route } from "react-router-dom";
 import LandingPage from './pages/landingPage';
 import Navbar from './components/Navbar';
 
+
+
+
 function App() {
-  
 
   return (
     <>
@@ -17,3 +19,4 @@ function App() {
 }
 
 export default App
+
